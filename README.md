@@ -120,4 +120,4 @@ const char* password = "12345678";
 Para a comunicação com o Dashboard do Node-red via MQTT e NodeMCU, utilizamos widgets de entrada e saída para cada um dos tópicos e dois botões do Dashboard para ligar e desligar o led padrão (D4) no Node-Red. Os botões de entrada recebiam o servidor MQTT (test.mosquitto.org:1883) e o tópico, que eram ligar parar ligar, desligar para desligar e estado para verificar em qual das opções anteriores ele estava.
  
  
-3 -   **Comunica o NodeMCU via MQTT com um rede social (Ex: Telegram). ** 
+3 -   **Comunica o NodeMCU via MQTT com um rede social (Ex: Telegram).** 
