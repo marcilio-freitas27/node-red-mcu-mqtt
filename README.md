@@ -1,4 +1,4 @@
-## Construa uma aplicação IoT integrada com uma rede social (2BIM)
+## Atividade: Construa uma aplicação IoT integrada com uma rede social (2BIM)
 ### Proposta
 - Construa uma aplicação IoT que atende aos seguintes requisitos.
 -   Comunica o NodeMCU com MQTT;  
@@ -118,6 +118,28 @@ const char* password = "12345678";
 2. -   **Comunica o NodeMCU via MQTT com o Node-red e recebe comandos do Dashboard;**
 
 Para a comunicação com o Dashboard do Node-red via MQTT e NodeMCU, utilizamos widgets de entrada e saída para cada um dos tópicos e dois botões do Dashboard para ligar e desligar o led padrão (D4) no Node-Red. Os botões de entrada recebiam o servidor MQTT (test.mosquitto.org:1883) e o tópico, que eram ligar parar ligar, desligar para desligar e estado para verificar em qual das opções anteriores ele estava.
+
+![NodeMCU](/imagens/dashboard.png)
+Dashboard
+
+![NodeMCU](/imagens/mcu-led-off.jpg)
+NodeMCU com led desligada
+
+![NodeMCU](/imagens/mcu-led-on.jpg)
+NodeMCU com led ligada
+
+![NodeMCU](/imagens/node-red-mqtt-conf1.png)
+Node-Red configuração parte 1
+
+![NodeMCU](/imagens/node-red-mqtt-conf2.png)
+Node-Red configuração parte 2
+
+![NodeMCU](/imagens/node-red-mqtt-conf3.png)
+Node-Red configuração parte 3
+
+![NodeMCU](/imagens/node-red.png)
+Node-Red configuração final
+
  
  
 3 -   **Comunica o NodeMCU via MQTT com um rede social (Ex: Telegram).** 
