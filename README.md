@@ -141,9 +141,14 @@ Node-Red configuração parte 3
 ![NodeMCU](/imagens/node-red.png)
 Node-Red configuração final
 
- 
- 
 3 -   **Comunica o NodeMCU via MQTT com um rede social (Ex: Telegram).** 
+
+Para a comunicação via telegram, baixamos a biblioteca para usar o telegram no Node-red e utlizamos os widgets *sender*
+e *receiver*. Esses widgets se comunicam para envio(sender + mqqt sender) e recebimento(receiiver + mqtt receiver) 
+com mqtt e o mqtt com o nodeMCU, exibindo os resultados no debud do node-red. Criamos comandos /ligar e /desligar no 
+telegram via bot do telegram, token e o chatid, e um /status para pegar quando o estado foi alterado. O envio depende de funções
+que tratam os valores enviados.
+
 ![NodeMCU](/imagens/mcu-red-telegram.png)
 Node-Red + Mqtt com telegram e dashboard
 
