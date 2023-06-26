@@ -9,7 +9,8 @@ Escreva os passos realizados em um arquivo markdown.md no seu repositório.
 Os seguintes aspectos também serão considerados na avaliação: criatividade, organização, qualidade da documentação e aplicabilidade. O material em anexo serve de apoio ao desenvolvimento da tarefa.
 
 1. **Comunica o NodeMCU com MQTT**
-	Para estabelecer esta comunicação, conectamos o NodeMCU no computador com um cabo usb do tipo b na entrada COM9 e alterando o tipo de ferramenta para NodeMCU 1.0.  Esta alteração depende da importação de uma nova biblioteca para o NodeMCU na IDE do Arduino. 
+
+Para estabelecer esta comunicação, conectamos o NodeMCU no computador com um cabo usb do tipo b na entrada COM9 e alterando o tipo de ferramenta para NodeMCU 1.0.  Esta alteração depende da importação de uma nova biblioteca para o NodeMCU na IDE do Arduino. 
 Após isso, instalamos o módulo PubSubClient na IDE do Arduino e usamos como base o script abaixo:
 
 ```
