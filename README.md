@@ -143,3 +143,14 @@ Node-Red configuração final
  
  
 3 -   **Comunica o NodeMCU via MQTT com um rede social (Ex: Telegram).** 
+![NodeMCU](/imagens/mcu-red-telegram.png)
+Node-Red + Mqtt com telegram e dashboard
+
+![NodeMCU](/imagens/func-guarda-estado.png)
+Node-Red + Mqtt com telegram e dashboard
+
+![NodeMCU](/imagens/func-envia-mensagem.png)
+Node-Red + Mqtt com telegram e dashboard
+
+![NodeMCU](/imagens/func-envia-estado.png)
+Node-Red + Mqtt com telegram e dashboard
