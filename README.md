@@ -146,17 +146,17 @@ Node-Red configuração final
 Para a comunicação via telegram, baixamos a biblioteca para usar o telegram no Node-red e utlizamos os widgets *sender*
 e *receiver*. Esses widgets se comunicam para envio(sender + mqqt sender) e recebimento(receiiver + mqtt receiver) 
 com mqtt e o mqtt com o nodeMCU, exibindo os resultados no debud do node-red. Criamos comandos /ligar e /desligar no 
-telegram via bot do telegram, token e o chatid, e um /status para pegar quando o estado foi alterado. O envio depende de funções
-que tratam os valores enviados.
+telegram via bot do telegram, token e o chatid, e um /status para pegar quando o estado foi alterado. 
+O envio e o armazenamento de dados depende de funções que tratam os valores enviados.
 
 ![NodeMCU](/imagens/mcu-red-telegram.png)
 Node-Red + Mqtt com telegram e dashboard
 
 ![NodeMCU](/imagens/func-guarda-estado.png)
-Node-Red + Mqtt com telegram e dashboard
+Função que guarda estado
 
 ![NodeMCU](/imagens/func-envia-mensagem.png)
-Node-Red + Mqtt com telegram e dashboard
+Função que envia mensagem
 
 ![NodeMCU](/imagens/func-envia-estado.png)
-Node-Red + Mqtt com telegram e dashboard
+Função que envia estado
